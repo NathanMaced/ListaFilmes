@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         listaFilmes = findViewById(R.id.idListaFilmes);
 
+        MyAdapter adapter = new MyAdapter();
+
         //preparar para instanciar o adaptador
         listaFilmes.setAdapter(Adaptador);
     }
