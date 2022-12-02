@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListaFilmes</string>
+    <string name="bob_esponja">Bob esponja e seus amigos no fundo do mar!</string>
+    <string name="patrulha_canina">O filhote Ryder e seus amigos têm um grande desafio: impedir o novo prefeito da cidade, Humdinger, de causar muitos problemas. Juntos e equipados com muita tecnologia, a Patrulha Canina luta para salvar os moradores da Cidade da Aventura.</string>
+    <string name="hotel_transilvania">A nova invenção de Van Helsing transforma Drac e os amigos em humanos, e Johnny em um monstro. Agora, Drac deve encontrar uma maneira de reverter o feitiço antes que a mudança se torne permanente.</string>
+    <string name="pinguins_madagascar">Os valentes pinguins Capitão, Kowalski, Rico e Recruta se unem a uma força de elite, chamada Vento do Norte, para impedir que o vilão Dr. Octavius Brine acabe com os pinguins do mundo todo.</string>
+    <string name="sing">Na glamourosa cidade de Redshore, Buster Moon e a galera enfrentam seus medos, fazem novos amigos e superam seus limites em uma jornada para convencer o recluso astro Clay Calloway a subir aos palcos novamente.</string>
+    <string name="sonic">O Dr. Robotnik retorna à procura de uma esmeralda mística que tem o poder de destruir civilizações. Para detê-lo, Sonic se une a seu antigo parceiro, Tails, e parte em uma jornada para encontrar a joia antes que ela caia em mãos erradas.</string>
 </resources>
