@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
 
     //CRIAR A BASE DE DADOS PARA OS FILMES
     String titulo[] = {"Bob Esponja", "Patrulha Canina", "Hotel Transilvânia", "Pinguins de Madagascar", "Sing 2", "Sonic 2"};
-    String descricao[] = {getString(R.string.bob_esponja),
-            getString(R.string.patrulha_canina),
-            getString(R.string.hotel_transilvania),
-            getString(R.string.pinguins_madagascar),
-            getString(R.string.sing),
-            getString(R.string.sonic)
+    String descricao[] = {"Bob Esponja e seu amigo Patrick, uma estrela do mar, embarcam em uma missão para limpar o nome do Sr. Sirigueijo, o proprietário do restaurante Siri Cascudo, que foi acusado de roubar a coroa do rei Netuno. Saindo dos limites familiares, Bob Esponja e Patrick aventuram-se para procurar a coroa de Netuno, mas encontrarão vários obstáculos no caminho.",
+            "O filhote Ryder e seus amigos têm um grande desafio: impedir o novo prefeito da cidade, Humdinger, de causar muitos problemas. Juntos e equipados com muita tecnologia, a Patrulha Canina luta para salvar os moradores da Cidade da Aventura.",
+            "A nova invenção de Van Helsing transforma Drac e os amigos em humanos, e Johnny em um monstro. Agora, Drac deve encontrar uma maneira de reverter o feitiço antes que a mudança se torne permanente.",
+            "Os valentes pinguins Capitão, Kowalski, Rico e Recruta se unem a uma força de elite, chamada Vento do Norte, para impedir que o vilão Dr. Octavius Brine acabe com os pinguins do mundo todo.",
+            "Na glamourosa cidade de Redshore, Buster Moon e a galera enfrentam seus medos, fazem novos amigos e superam seus limites em uma jornada para convencer o recluso astro Clay Calloway a subir aos palcos novamente.",
+            "O Dr. Robotnik retorna à procura de uma esmeralda mística que tem o poder de destruir civilizações. Para detê-lo, Sonic se une a seu antigo parceiro, Tails, e parte em uma jornada para encontrar a joia antes que ela caia em mãos erradas."
     };
     String acesso[] = {"4.5", "4.0", "5.0", "2.0", "3.7", "1.0"};
     int filmes[] = {R.drawable.bobesponja, R.drawable.patrulha, R.drawable.hotel, R.drawable.pinguin, R.drawable.sing2, R.drawable.sonic};
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter();
 
         //preparar para instanciar o adaptador
-        listaFilmes.setAdapter(Adaptador);
+        listaFilmes.setAdapter(adapter);
     }
 
     public class MyAdapter extends BaseAdapter {

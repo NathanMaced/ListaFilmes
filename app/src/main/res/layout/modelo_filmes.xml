@@ -37,9 +37,9 @@
                 android:id="@+id/idDescricaoFilme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bob esponja e seus amigos no fundo do mar!"
+                android:text="Bob Esponja e seu amigo Patrick, uma estrela do mar, embarcam em uma missão para limpar o nome do Sr. Sirigueijo, o proprietário do restaurante Siri Cascudo, que foi acusado de roubar a coroa do rei Netuno. Saindo dos limites familiares, Bob Esponja e Patrick aventuram-se para procurar a coroa de Netuno, mas encontrarão vários obstáculos no caminho."
                 android:textColor="#000"
-                android:textSize="15sp"
+                android:textSize="12sp"
                 android:textStyle="italic"
                 android:layout_marginBottom="10dp"/>
 
