@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     ListView listaFilmes;
@@ -42,6 +44,18 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
+            ImageView imagemFilme;
+            TextView tituloFilme, descricaoFilme, avaliacao;
+
+            //ADAPTADOR LIGANDO AO MODELO
+
+            View v = getLayoutInflater().inflate(R.layout.modelo_filmes, null);
+
+            imagemFilme = v.findViewById(R.id.idImagemFilme);
+            tituloFilme = v.findViewById(R.id.idTituloFilme);
+            descricaoFilme = v.findViewById(R.id.idDescricaoFilme);
+            avaliacao = v.findViewById(R.id.idAvaliacao);
+
             return null;
         }
     }
