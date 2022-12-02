@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter();
 
         //preparar para instanciar o adaptador
-        //listaFilmes.setAdapter(Adaptador);
+        listaFilmes.setAdapter(Adaptador);
     }
 
     public class MyAdapter extends BaseAdapter {
